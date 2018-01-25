@@ -1,0 +1,17 @@
+{
+  "name": "lsp",
+  "version": "0.0.0",
+  "description": "A Bluetooth Low Energy inspector for the command line.",
+  "keywords": [
+    "Bluetooth Low Energy",
+    "Bluetooth LE",
+    "BLE",
+    "inspector",
+    "command line"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://gitlab.com/Miras/LSP",
+  "bugs": "https://gitlab.com/Miras/LSP/issues",
+  "repository": "gitlab:Miras/LSP",
+  "author": "Miras Absar <miras@miras.io> (https://miras.io)"
+}
