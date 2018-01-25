@@ -13,5 +13,8 @@
   "homepage": "https://gitlab.com/Miras/LSP",
   "bugs": "https://gitlab.com/Miras/LSP/issues",
   "repository": "gitlab:Miras/LSP",
-  "author": "Miras Absar <miras@miras.io> (https://miras.io)"
+  "author": "Miras Absar <miras@miras.io> (https://miras.io)",
+  "devDependencies": {
+    "eslint": "4.16.X"
+  }
 }
