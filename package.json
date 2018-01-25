@@ -18,6 +18,7 @@
     "eslint": "4.16.X"
   },
   "dependencies": {
+    "blessed": "0.1.81",
     "noble": "1.8.1"
   }
 }
