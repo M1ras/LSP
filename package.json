@@ -14,6 +14,12 @@
   "bugs": "https://gitlab.com/Miras/LSP/issues",
   "repository": "gitlab:Miras/LSP",
   "author": "Miras Absar <miras@miras.io> (https://miras.io)",
+  "bin": {
+    "lsp": "bin/lsp.js"
+  },
+  "scripts": {
+    "lint": "eslint -c config/eslint.yaml 'src/**/*.js'"
+  },
   "devDependencies": {
     "eslint": "4.16.X"
   },
