@@ -16,5 +16,8 @@
   "author": "Miras Absar <miras@miras.io> (https://miras.io)",
   "devDependencies": {
     "eslint": "4.16.X"
+  },
+  "dependencies": {
+    "noble": "1.8.1"
   }
 }
