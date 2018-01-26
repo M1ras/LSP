@@ -1,0 +1,12 @@
+{
+  "characteristic": {
+    "broadcast": "broadcast",
+    "read": "read",
+    "writeWithoutResponse": "writeWithoutResponse",
+    "write": "write",
+    "notify": "notify",
+    "indicate": "indicate",
+    "authenticatedSignedWrites": "authenticatedSignedWrites",
+    "extendedProperties": "extendedProperties"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "noble": {
+    "stateChange": "stateChange",
+    "scanStart": "scanStart",
+    "scanStop": "scanStop",
+    "discover": "discover",
+    "warning": "warning"
+  },
+  "peripheral": {
+    "connect": "connect",
+    "disconnect": "disconnect",
+    "rssiUpdate": "rssiUpdate",
+    "servicesDiscover": "servicesDiscover",
+    "handleRead": "handleRead",
+    "handleWrite": "handleWrite",
+    "handleNotify": "handleNotify"
+  },
+  "service": {
+    "includedServicesDiscover": "includedServicesDiscover",
+    "characteristicsDiscover": "characteristicsDiscover"
+  },
+  "characteristic": {
+    "data": "data",
+    "read": "read",
+    "write": "write",
+    "broadcast": "broadcast",
+    "notify": "notify",
+    "descriptorsDiscover": "descriptorsDiscover"
+  },
+  "descriptor": {
+    "valueRead": "valueRead",
+    "valueWrite": "valueWrite"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "noble": {
+    "unknown": "unknown",
+    "resetting": "resetting",
+    "unsupported": "unsupported",
+    "unauthorized": "unauthorized",
+    "poweredOff": "poweredOff",
+    "poweredOn": "poweredOn"
+  },
+  "peripheral": {
+    "connected": "connected",
+    "connecting": "connecting",
+    "disconnected": "disconnected",
+    "disconnecting": "disconnecting"
+  }
+}
