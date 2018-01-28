@@ -1,0 +1,86 @@
+{
+  "eventEmitter": {
+    "newListener": "newListener",
+    "removeListener": "removeListener"
+  },
+  "node": {
+    "adopt": "adopt",
+    "remove": "remove",
+    "reparent": "reparent",
+    "attach": "detach"
+  },
+  "screen": {
+    "resize": "resize",
+    "mouse": "mouse",
+    "keypress": "keypress",
+    "element": "element",
+    "key": "key",
+    "focus": "focus",
+    "blur": "blur",
+    "prerender": "prerender",
+    "render": "render",
+    "warning": "warning",
+    "destroy": "destroy"
+  },
+  "element": {
+    "blur": "blur",
+    "focus": "focus",
+    "mouse": "mouse",
+    "mousedown": "mousedown",
+    "mouseup": "mouseup",
+    "wheeldown": "wheeldown",
+    "wheelup": "wheelup",
+    "mouseover": "mouseover",
+    "mouseout": "mouseout",
+    "mousemove": "mousemove",
+    "click": "click",
+    "keypress": "keypress",
+    "move": "move",
+    "resize": "resize",
+    "key": "key",
+    "prerender": "prerender",
+    "render": "render",
+    "hide": "hide",
+    "show": "show",
+    "destroy": "destroy"
+  },
+  "scrollableBox": {
+    "scroll": "scroll"
+  },
+  "list": {
+    "select": "select",
+    "cancel": "cancel",
+    "action": "action"
+  },
+  "fileManager": {
+    "cd": "cd",
+    "file": "file"
+  },
+  "form": {
+    "submit": "submit",
+    "cancel": "cancel",
+    "reset": "reset"
+  },
+  "textarea": {
+    "submit": "submit",
+    "cancel": "cancel",
+    "action": "action"
+  },
+  "button": {
+    "press": "press"
+  },
+  "checkbox": {
+    "check": "check",
+    "uncheck": "uncheck"
+  },
+  "progressBar": {
+    "reset": "reset",
+    "complete": "complete"
+  },
+  "log": {
+    "log": "log"
+  },
+  "terminal": {
+    "title": "title"
+  }
+}
