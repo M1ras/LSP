@@ -1,0 +1,10 @@
+{
+  "beforeExit": "beforeExit",
+  "disconnect": "disconnect",
+  "exit": "exit",
+  "message": "message",
+  "rejectionHandled": "rejectionHandled",
+  "uncaughtException": "uncaughtException",
+  "unhandledRejection": "unhandledRejection",
+  "warning": "warning"
+}
