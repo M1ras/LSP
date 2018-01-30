@@ -18,7 +18,7 @@
     "lsp": "bin/lsp.js"
   },
   "scripts": {
-    "lint": "eslint -c config/eslint.yaml 'src/**/*.js'"
+    "lint": "eslint -c config/eslint.yaml 'src/**/*.js' 'lib/**/*.js'"
   },
   "devDependencies": {
     "eslint": "4.16.X"
