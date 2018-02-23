@@ -7,6 +7,7 @@ const PROCESS_EVENTS = require("../lib/constants/ProcessEvents.json");
 const NOBLE_EVENTS = require("../lib/constants/NobleEvents.json");
 const NOBLE_STATES = require("../lib/constants/NobleStates.json");
 
+const BLE_INSPECTOR = require("../lib/BLEInspector.js");
 const BLE_SCANNER = require("../lib/BLEScanner.js");
 
 const SCREEN_OPTIONS = {
@@ -30,11 +31,15 @@ class LSP {
     process.on(PROCESS_EVENTS.exit, this.__destruct);
 
     this._bleScanner = new BLE_SCANNER(this._screen);
+    this._bleInspector = new BLE_INSPECTOR(this._screen);
   }
 
   _destruct() {
     this._bleScanner.destruct();
+    this._bleInspector.destruct();
+
     delete this._bleScanner;
+    delete this._bleInspector;
 
     NOBLE.removeListener(NOBLE_EVENTS.noble.stateChange, this.__noble_onStateChange);
     this._screen.unkey(SCREEN_OPTIONS.ignoreLocked, process.exit);

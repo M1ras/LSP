@@ -3,5 +3,14 @@
   "peripherals": "Peripherals",
   "macAddress": "MAC Address",
   "name": "Name",
-  "unknown": "Unknown"
+  "unknown": "Unknown",
+  "peripheral": "Peripheral",
+  "declaration": "Declaration",
+  "uuid": "UUID",
+  "type": "Type",
+  "properties": "Properties",
+  "value": "Value",
+  "service": "Service",
+  "characteristic": "Characteristic",
+  "descriptor": "Descriptor"
 }
