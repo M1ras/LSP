@@ -13,3 +13,7 @@
 
 ### Added
 - Subscribing to characteristics that have the NOTIFY and/or INDICATE properties.
+
+## 0.1.2
+### Updated
+- Noble from 1.9.0 to 1.9.1.
