@@ -9,7 +9,7 @@
     "inspector",
     "command line"
   ],
-  "license": "GPL-3.0",
+  "license": "MIT",
   "homepage": "https://gitlab.com/Miras/LSP",
   "bugs": "https://gitlab.com/Miras/LSP/issues",
   "repository": "gitlab:Miras/LSP",
