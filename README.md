@@ -18,7 +18,7 @@ LSP uses [noble 1.9.1](https://github.com/noble/noble/tree/2afa49a798e067d84970f
 `sudo apt-get install bluetooth bluez libbluetooth-dev libudev-dev libcap2-bin`
 
 #### RHEL and derivatives
-`sudo dnf install bluez bluez-libs bluez-libs-devel libcap2-bin`
+`sudo dnf install systemd-devel bluez bluez-libs bluez-libs-devel libcap`
 
 ### FreeBSD
 In theory, LSP should work on FreeBSD, but I haven't tried it out. Checkout [noble 1.9.1's documentation on FreeBSD](https://github.com/noble/noble/tree/2afa49a798e067d84970f97778a14aa07b986ad8#freebsd) to try it out.
